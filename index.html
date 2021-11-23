@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="container">
+            <h2><a href="index.html">Clothing Store</a></h2>
+            <ul>
+                <li><a href="login.php">Login Admin</a></li>
+            </ul>
+            <ul>
+                <!--daftar item-->
+                <li><a href="cek-stok.php">Cek Ketersediaan Barang</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--content-->
+    <div class="content">
+        <div class="container" style="height: auto;">
+            <h2>Data Diri Pembeli</h2>
+            <form action="checkout.php" method="POST">
+                <table class="box">
+                    <tr>
+                        <td class="jarak">Nama :</td>
+                        <td><input type="text" name="nama" placeholder="Masukkan nama" class="input-border"
+                                style="width: 415px;"></td>
+                    </tr>
+                    <tr>
+                        <td class="jarak">Alamat :</td>
+                        <td><textarea name="alamat" placeholder="Masukkan alamat pengiriman" rows="4" cols="50"
+                                class="input-border"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="jarak">Nomor Telp :</td>
+                        <td><input type="text" name="telp" placeholder="Masukkan Nomor Telepon" class="input-border"
+                                style="width: 415px;"></td>
+                    </tr>
+                </table>
+        </div>
+        <div class="container" style="height: auto;">
+            <h2>List Barang</h2>
+            <h5>
+                <div class="boxb">
+                    <div class="product-box">
+                        <p><a><img src="gambar/kaosoblong.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Kaos Oblong</h3><br>
+                                <h4>Unisex, Allsize</h4>
+                                <h4>Rp.25.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang1" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/kemejaflanel.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Kemeja Flanel</h3><br>
+                                <h4>Male, Allsize</h4>
+                                <h4>Rp.115.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang2" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/hoodiejumper.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Hoodie Jumper</h3><br>
+                                <h4>Unisex, Allsize</h4>
+                                <h4>Rp.150.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang3" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/jacketparasut.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Jacket Parasut</h3><br>
+                                <h4>Female, Allsize</h4>
+                                <h4>Rp.95.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang4" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/sweateroversize.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Sweater Oversize</h3><br>
+                                <h4>Female, Allsize</h4>
+                                <h4>Rp.37.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang5" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/cardiganoversize.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Cardigan Oversize</h3><br>
+                                <h4>Female, Allsize</h4>
+                                <h4>Rp.70.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang6" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/denimpants.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Denim Pants</h3><br>
+                                <h4>Male, Allsize</h4>
+                                <h4>Rp.110.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang7" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/joggerpants.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Jogger Pants</h3><br>
+                                <h4>Male, Allsize</h4>
+                                <h4>Rp.79.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang8" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/shortpants.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Short Pants</h3><br>
+                                <h4>Male, Allsize</h4>
+                                <h4>Rp.55.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang9" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/linenskirt.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Linen Skirt</h3><br>
+                                <h4>Female, Allsize</h4>
+                                <h4>Rp.60.500</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang10" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/kulotjeans.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Kulot Jeans</h3><br>
+                                <h4>Female, Allsize</h4>
+                                <h4>Rp.115.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang11" value="0">
+                            </center>
+                        </p>
+                    </div>
+                    <div class="product-box">
+                        <p><a><img src="gambar/trainingkatun.png" alt="" class="gbr" /></a>
+                            <center>
+                                <h3>Training Katun</h3><br>
+                                <h4>Unisex, Allsize</h4>
+                                <h4>Rp.30.000</h4><br>
+                                Jumlah Beli : <br>
+                                <input type="number" name="barang21" value="0">
+                            </center>
+                        </p>
+                    </div>
+                </h5>
+                    <center>
+                        <button class="btn" type="submit" value="submit">Check Out</button>
+                    </center>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2021-Clothing Store.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
